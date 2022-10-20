@@ -15,6 +15,7 @@ function deleteSkill (req, res) {
 }
 
 function create(req, res) {
+Skill.create(req.body);
 res.redirect('/skills');
 }
 
